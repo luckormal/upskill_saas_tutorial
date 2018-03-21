@@ -44,6 +44,17 @@ background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, F
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;  
+  }
+}
+
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
